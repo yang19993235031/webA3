@@ -1,0 +1,69 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.d1{
+	background: url(../img/ia_100000013.jpg) ;
+	width: 100vw;
+	height: 100vh;
+	}
+
+.d2{
+	margin-left: 50px;
+	
+}
+.d2 span{
+	
+	text-align: left;
+	margin-right:  6.2% ;
+}
+.d6 {
+	line-height: 70px;
+	margin-right: 50px;
+	float: right;
+}
+.s1{
+	font-size: 40px;
+	
+}
+
+.d3{
+	text-align: center;
+	margin-top: 27.7vh;
+	font-size: 60px ;
+	font-family: "宋体";
+}
+.d4{
+	position: relative;
+	width: 160px;
+	height: 55px;
+	line-height: 55px;
+	background: #999;
+	text-align: center;
+	color: white;
+	margin:12vh 46%;
+}
+
+.d5{
+	background: red;
+	height: 180px;
+	width: 810px;
+	margin: 180px auto;
+	position: relative;
+	
+}
+.d5 h3{
+	font-size:60px;
+	font-weight: 400;
+	font-family: "times new roman";
+}
+.d5 p{
+	margin: 30px auto 25px;
+}
+.d5 a{
+	color: orange;
+	text-decoration: none;
+	border-bottom: dotted 1px  ;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="d1">
+		
+		</div>
+		<div class="d2">
+			
+		</div>
+	</body>
+	
+	<script type="text/javascript">
+		var d1 = document.querySelector(".d1");
+		var d2 = document.querySelector(".d2");
+		var num=0;
+		setInterval(function(){
+			num++;
+			if(num%2==0){
+				d1.style.color="red";
+				d2.style.color="blue";
+			}else{
+				d1.style.color="blue";
+				d2.style.color="red";
+			}
+		},1000);
+		
+	</script>
+	<style type="text/css">
+		.d1{
+			height: 30px;
+			width: 600px;
+			background: red;
+		}
+		.d2{
+			height: 30px;
+			width: 600px;
+			background: blue;
+		}
+	</style>
+</html>
